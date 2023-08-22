@@ -7,8 +7,7 @@ int ln=0;
 fprintf(yyout,"\n%d:%s",ln,yytext);}
 %%
 int yywrap(){}
-int main()
-{
+int main(){
 yyin=fopen("simple.txt","r");
 yyout=fopen("out.txt","w");
 yylex();
