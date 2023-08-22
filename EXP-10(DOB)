@@ -8,7 +8,6 @@
 
 %%
 int yywrap(){}
-
 int main()
 {
 printf("\n enter the DOB:");
