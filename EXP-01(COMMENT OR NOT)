@@ -4,6 +4,7 @@ int main()
 char com [100];
 int i=2,a=0;
 printf("Enter Text : ");
+
 gets(com);
 if(com[0]=='/'){
 if(com[1]=='/')
