@@ -27,7 +27,7 @@ int main()
 		printf("%c->",f);
 		for(i=0;c[i]!='\0';i++)
 		{
-			printf("%c",c[i]);
+		printf("%c",c[i]);
 		}
 		printf("%c'\n",f);
 		printf("%c'->",f);
